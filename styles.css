@@ -192,11 +192,10 @@ header_x h2 {
 
     .imagemprogramacao {
         order: -1; /* Coloca a imagem antes do texto */
-    
-        
             width: 100px;
             margin-top: 40px;
             margin-right: 20px;
+        position: absolute;
             top: 0;
             right: 0;
     
