@@ -84,10 +84,7 @@ img {
 }
 
 .container {
-     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px
+     position: absolute;
 }
 
 .logo-container_x {
