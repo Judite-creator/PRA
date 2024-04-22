@@ -203,7 +203,7 @@ header_x h2 {
 
     
         .btn-list {
-            margin-bottom: 15px; /* Aumentar o espaçamento vertical para dispositivos móveis */
+            margin-bottom: 30px; /* Aumentar o espaçamento vertical para dispositivos móveis */
         }
     .footer {
         display: flex;
