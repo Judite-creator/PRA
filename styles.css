@@ -197,8 +197,8 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-        width: 40px;
-        margin-top: 20px; /* Ajuste a margem superior para definir a distância da borda superior */
+        width: 80px;
+        margin-top: 40px; /* Ajuste a margem superior para definir a distância da borda superior */
         margin-right: 20px;
         position: absolute;
         bottom: 0; /* Altere para a parte inferior da tela */
