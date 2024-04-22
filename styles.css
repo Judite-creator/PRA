@@ -333,12 +333,12 @@ header_x h2 {
 }
 
  .btn-list {
-        margin-top: 50px; /* Adiciona espaço entre os botões */
+        margin-top: 10px; /* Adiciona espaço entre os botões */
         padding-left: 0; /* Remove o preenchimento padrão do navegador para listas */
     }
  
- .btn-list lu {
-        margin-bottom: 300px; /* Adiciona espaço entre os botões */
+ .btn-list li {
+        margin-bottom: 10px; /* Adiciona espaço entre os botões */
     }
 
   .info-container h2,
