@@ -389,10 +389,26 @@ header_x h2 {
         right: 5px;
     }
 
-    .btn-list {
-        margin-bottom: 50px; /* Aumentar o espaçamento vertical para dispositivos móveis */
+ .info-buttons-container {
+        display: flex;
+        flex-direction: column; /* Altera a direção para uma coluna */
+        align-items: flex-start; /* Alinha os itens à esquerda */
     }
 
+    .info-buttons-container nav {
+        margin-left: 0; /* Remove a margem esquerda */
+        margin-top: 10px; /* Adiciona espaço entre os botões */
+    }
+
+    .info-container h2 {
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    }
+
+    .info-pessoais {
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 10px; /* Adiciona espaço abaixo do texto */
+    }
     .footer {
         display: flex;
         flex-direction: column-reverse; /* Inverte a ordem dos elementos */
