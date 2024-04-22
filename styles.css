@@ -200,9 +200,9 @@ header_x h2 {
       width: 40px;
     margin-top: 60px;
     margin-right: 20px;
-    position: relative;
-    top: auto;
-    right: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
     
