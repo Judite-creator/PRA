@@ -187,12 +187,11 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-    width: 40%;
+    width: 40px;
     max-width: 40px; /* Define uma largura máxima para evitar que a imagem fique muito grande */
     height: auto; /* Para manter a proporção da imagem */
     margin-top: 40px; /* Ajuste conforme necessário */
     margin-right: 40; /* Remova a margem direita */
-    margin-left: auto;
     }
 
     .logo-container_z {
