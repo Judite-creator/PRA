@@ -181,30 +181,51 @@ header_x h2 {
     }
 
     .logo {
-        width: 60%;
+        order: -1;
+        width: 200px;
         margin-top: 40px;
-        margin-left: 40px;
+        margin-left: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .imagemprogramacao {
-    width: 40px;
-    max-width: 40px; /* Define uma largura máxima para evitar que a imagem fique muito grande */
-    height: auto; /* Para manter a proporção da imagem */
-    margin-top: 40px; /* Ajuste conforme necessário */
-    margin-right: 40px; /* Remova a margem direita */
+        order: -1; /* Coloca a imagem antes do texto */
+        margin-bottom: 20px; /* Adiciona margem entre a imagem e o texto */
+        
+            width: 150px;
+            margin-top: 20px;
+            margin-right: 10px;
+            top: 0;
+            right: 0;
+    
     }
 
+    
+        .btn-list {
+            margin-bottom: 50px; /* Aumentar o espaçamento vertical para dispositivos móveis */
+        }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse; /* Inverte a ordem dos elementos */
+        align-items: center; /* Centraliza os elementos horizontalmente */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info-container_x {
+        order: 2; 
+        bottom: 30px;
+        float: right; 
+    }
+    
     .logo-container_z {
         order: 1;
         bottom: 40px;
-        left: 20px; /* Posição esquerda */
-        position: absolute; /* Altere para absoluta para que não afete a ordem do flex */
-    }
-
-    .info-container_x {
-        order: 2;
-        bottom: 30px;
-        right: 20px; /* Posição direita */
-        position: absolute; /* Altere para absoluta para que não afete a ordem do flex */
+        float: right;  
     }
 }
