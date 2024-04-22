@@ -173,16 +173,18 @@ header_x h2 {
     color: black; /* Cor do texto */
 }
 
-
 @media screen and (max-width: 768px) {
     .titulo_x {
         flex-direction: column;
         align-items: center;
     }
 
+    .container {
+        position: relative; /* Precisa ser relativo para que os elementos absolutos dentro dele sejam posicionados corretamente */
+    }
+
     .logo {
-        order: -1;
-        width: 200px;
+        width: 80px;
         margin-top: 40px;
         margin-left: 20px;
         position: absolute;
@@ -191,41 +193,34 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-        order: -1; /* Coloca a imagem antes do texto */
-        margin-bottom: 20px; /* Adiciona margem entre a imagem e o texto */
-        
-            width: 150px;
-            margin-top: 20px;
-            margin-right: 10px;
-            top: 0;
-            right: 0;
-    
+        width: 40px;
+        margin-top: 20px; /* Ajuste a margem superior para definir a distância da borda superior */
+        margin-right: 20px;
+        position: absolute;
+        bottom: 0; /* Altere para a parte inferior da tela */
+        right: 0;
     }
 
-    
-        .btn-list {
-            margin-bottom: 50px; /* Aumentar o espaçamento vertical para dispositivos móveis */
-        }
+    .btn-list {
+        margin-bottom: 50px; /* Aumentar o espaçamento vertical para dispositivos móveis */
+    }
+
     .footer {
         display: flex;
         flex-direction: column-reverse; /* Inverte a ordem dos elementos */
         align-items: center; /* Centraliza os elementos horizontalmente */
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .info-container_x {
         order: 2; 
         bottom: 30px;
         float: right; 
     }
-    
+
     .logo-container_z {
         order: 1;
         bottom: 40px;
         float: right;  
     }
 }
+
