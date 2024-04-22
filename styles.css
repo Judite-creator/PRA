@@ -180,17 +180,10 @@ header_x h2 {
         align-items: center;
     }
 
-    .container {
-        position: relative; /* Precisa ser relativo para que os elementos absolutos dentro dele sejam posicionados corretamente */
-    }
-
     .logo {
         width: 80px;
         margin-top: 40px;
         margin-left: 20px;
-        position: absolute;
-        top: 0;
-        left: 0;
     }
 
     .imagemprogramacao {
@@ -205,20 +198,14 @@ header_x h2 {
     .logo-container_z {
         order: 1;
         bottom: 40px;
-        left: 0; /* Altere para a parte esquerda */
+        left: 20px; /* Posição esquerda */
         position: absolute; /* Altere para absoluta para que não afete a ordem do flex */
     }
 
     .info-container_x {
         order: 2;
         bottom: 30px;
-        right: 0; /* Altere para a parte direita */
+        right: 20px; /* Posição direita */
         position: absolute; /* Altere para absoluta para que não afete a ordem do flex */
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column-reverse; /* Inverte a ordem dos elementos */
-        align-items: center; /* Centraliza os elementos horizontalmente */
     }
 }
