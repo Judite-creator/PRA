@@ -39,7 +39,10 @@ header {
 .container {
      position: absolute;
 }
-
+.logo-container {
+    bottom: 40px;
+    float: right;  
+}
 
 .logo {
     width: 200px;
