@@ -133,11 +133,11 @@ img {
 
 .imagemprogramacao {
     width: 200px;
-    margin-top: 70px;
-    margin-right: 50px;
-    position: absolute; /* Para fixar a imagem na tela */
-    transform: translateY(-50%); /* Centraliza verticalmente */
-    right: 0; /* Alinha à direita */
+    margin-top: 40px;
+    margin-right: 40px;
+    position: relative; /* Para fixar a imagem na tela */
+    top:0;
+    right: 20px; /* Alinha à direita */
 }
 
 .titulo h2 {
