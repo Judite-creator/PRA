@@ -35,6 +35,23 @@ header {
     margin-left: auto; 
 }
 
+.logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+
+.imagemprogramacao {
+     width: 200px;
+    margin-top: 40px;
+    margin-right: 40px;
+    position: relative;
+    top:0;
+    right:20 px
+}
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -90,23 +107,7 @@ img {
     height: auto;
 }
 
-.logo {
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    position: relative;
-    top: 0;
-    left: 20px;
-}
 
-.imagemprogramacao {
-     width: 200px;
-    margin-top: 40px;
-    margin-right: 40px;
-    position: relative;
-    top:0;
-    right:20 px
-}
 
 .header-titulo {
     text-align: center;
