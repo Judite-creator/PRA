@@ -187,10 +187,10 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-    width: 100%; /* Altera a largura para ocupar 100% da largura do contêiner */
+    width: 40%; /* Altera a largura para ocupar 100% da largura do contêiner */
     max-width: 200px; /* Define uma largura máxima para evitar que a imagem fique muito grande */
     height: auto; /* Para manter a proporção da imagem */
-    margin-top: 70px; /* Ajuste conforme necessário */
+    margin-top: 90px; /* Ajuste conforme necessário */
     margin-right: 0; /* Remova a margem direita */
     margin-left: auto;
     }
