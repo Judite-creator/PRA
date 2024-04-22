@@ -337,7 +337,7 @@ header_x h2 {
         padding-left: 0; /* Remove o preenchimento padrão do navegador para listas */
     }
  
- .btn-list li {
+ .btn-list lu {
         margin-bottom: 300px; /* Adiciona espaço entre os botões */
     }
 
