@@ -191,12 +191,18 @@ header_x h2 {
     width: 80px;
     margin-top: 40px;
     margin-left: 20px;
+     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .imagemprogramacao {
-    width: 80px;
-    margin-top: 80px;
-    margin-right: 25px;
+      width: 80px;
+    margin-top: 40px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
     
