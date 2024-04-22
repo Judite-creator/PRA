@@ -97,6 +97,15 @@ img {
     left: 20px;
 }
 
+.imagemprogramacao {
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 40px;
+    position: relative; /* Para fixar a imagem na tela */
+    top:0;
+    right: 20px; /* Alinha à direita */
+}
+
 .header-titulo {
     text-align: center;
 }
@@ -131,14 +140,7 @@ img {
     margin-bottom: 20px;
 }
 
-.imagemprogramacao {
-    width: 200px;
-    margin-top: 40px;
-    margin-right: 40px;
-    position: relative; /* Para fixar a imagem na tela */
-    top:0;
-    right: 20px; /* Alinha à direita */
-}
+
 
 .titulo h2 {
     margin-bottom: 10px;
