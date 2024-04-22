@@ -176,7 +176,7 @@ header_x h2 {
 @media screen and (max-width: 768px) {
     .titulo_x {
         flex-direction: column;
-        align-items: center;
+        align-items: justify;
     }
 
     
