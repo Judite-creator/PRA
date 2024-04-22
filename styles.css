@@ -100,12 +100,10 @@ img {
 }
 
 .imagemprogramacao {
-    width: 200px;
+     width: 200px;
     margin-top: 40px;
-    margin-right: 40px;
-    position: relative; /* Para fixar a imagem na tela */
-    top:0;
-    right: 20px; /* Alinha à direita */
+    margin-left: auto; /* Alterado para alinhar à direita */
+    margin-right: 40px; /* Removido para evitar conflitos */
 }
 
 .header-titulo {
