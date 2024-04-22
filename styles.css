@@ -184,6 +184,7 @@ header_x h2 {
     display: flex;
     justify-content: space-between; /* Isso coloca os itens nas extremidades opostas */
     position: relative; /* Precisa ser relativo para que os elementos absolutos dentro dele sejam posicionados corretamente */
+            flex-direction: column;
 }
 
 .logo {
@@ -208,10 +209,6 @@ header_x h2 {
         align-items: center; /* Centraliza os elementos horizontalmente */
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
     
     .info-container_x {
         order: 2; 
