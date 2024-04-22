@@ -47,10 +47,10 @@ header {
 .imagemprogramacao {
      width: 150px;
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
     position: relative;
     top:0;
-    right:20 px
+    right:0 px
 }
 nav ul li {
     display: inline;
