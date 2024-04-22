@@ -397,7 +397,7 @@ header_x h2 {
 
     .info-buttons-container nav {
         margin-left: 0; /* Remove a margem esquerda */
-        margin-top: 10px; /* Adiciona espaço entre os botões */
+        margin-top: 20px; /* Adiciona espaço entre os botões */
     }
 
     .info-container h2 {
