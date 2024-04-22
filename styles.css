@@ -1,0 +1,230 @@
+/* CSS */
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("R.png");
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 0px;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 8px;
+    margin-top: 0;
+}
+
+.header_x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 10px;
+    margin-left: auto; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border: 8px;
+}
+
+.footer {
+    min-height: calc(100vh - 90vh);
+    position: relative;
+    padding-bottom: footerHeight;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: footerHeight;
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-container {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container_x {
+    order: 2; /* ou qualquer número que desejar */
+    bottom: 30px;
+    float: right; 
+}
+
+.logo-container_z {
+    order: 3;
+    bottom: 40px;
+    float: right;  
+}
+
+.logo_small {
+    width: 20px; /* Defina o tamanho desejado */
+    height: auto;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-titulo {
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo_x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.titulo_x > div {
+    margin-bottom: 10px;
+}
+
+.titulo_x img {
+    margin-bottom: 10px;
+}
+
+.estilo {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.imagemprogramacao {
+    width: 200px;
+    margin-top: 70px;
+    margin-right: 50px;
+    position: absolute; /* Para fixar a imagem na tela */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    right: 0; /* Alinha à direita */
+}
+
+.titulo h2 {
+    margin-bottom: 10px;
+}
+
+.section_x {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+header_x h2 {
+    margin: 0;
+}
+
+.info-buttons-container {
+    display: flex;
+    align-items: center; /* Para alinhar verticalmente */
+}
+
+.info-buttons-container nav {
+    margin-left: auto; /* Para mover os botões para a direita */
+}
+
+.info-container h2 {
+    margin-right: 10px; /* Espaçamento entre "Informações pessoais" e os botões */
+}
+
+.info-pessoais {
+    margin-right: 10px; /* Espaçamento entre "Informações pessoais" e os botões */
+    color: black; /* Cor do texto */
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo_x {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .imagemprogramacao {
+        order: -1; /* Coloca a imagem antes do texto */
+        margin-bottom: 20px; /* Adiciona margem entre a imagem e o texto */
+        
+            width: 150px;
+            margin-top: 20px;
+            margin-right: 10px;
+            top: 0;
+            right: 0;
+    
+    }
+
+    
+        .btn-list {
+            margin-bottom: 15px; /* Aumentar o espaçamento vertical para dispositivos móveis */
+        }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse; /* Inverte a ordem dos elementos */
+        align-items: center; /* Centraliza os elementos horizontalmente */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info-container_x {
+        order: 2; 
+        bottom: 30px;
+        float: right; 
+    }
+    
+    .logo-container_z {
+        order: 1;
+        bottom: 40px;
+        float: right;  
+    }
+}
