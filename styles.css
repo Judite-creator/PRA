@@ -82,13 +82,6 @@ img {
     padding: 10px 0;
 }
 
-.logo-container {
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
-}
-
-
 .logo-container_x {
     order: 2; /* ou qualquer número que desejar */
     bottom: 30px;
