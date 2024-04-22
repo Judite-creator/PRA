@@ -179,9 +179,13 @@ header_x h2 {
         align-items: center;
     }
 
+    
+      
     .container {
-        position: relative; /* Precisa ser relativo para que os elementos absolutos dentro dele sejam posicionados corretamente */
+        display: flex;
+        flex-direction: column;
     }
+    
 
     .logo {
         width: 80px;
