@@ -36,6 +36,11 @@ header {
     margin-left: auto; 
 }
 
+.container {
+     position: absolute;
+}
+
+
 .logo {
     width: 200px;
     margin-top: 40px;
@@ -83,9 +88,6 @@ img {
     left: 10px;
 }
 
-.container {
-     position: absolute;
-}
 
 .logo-container_x {
     order: 2; /* ou qualquer número que desejar */
