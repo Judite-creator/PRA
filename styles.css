@@ -194,11 +194,11 @@ header_x h2 {
         order: -1; /* Coloca a imagem antes do texto */
         margin-bottom: 20px; /* Adiciona margem entre a imagem e o texto */
         
-            width: 150px;
-            margin-top: 20px;
-            margin-right: 10px;
+            width: 100px;
+            margin-top: 40px;
+            margin-right: 20px;
             top: 0;
-            right: 20;
+            right: 0;
     
     }
 
