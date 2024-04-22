@@ -102,8 +102,10 @@ img {
 .imagemprogramacao {
      width: 200px;
     margin-top: 40px;
-    margin-left: auto; /* Alterado para alinhar à direita */
-    margin-right: 40px; /* Removido para evitar conflitos */
+    margin-right: 40px;
+    position: relative;
+    top:0;
+    right:20 px
 }
 
 .header-titulo {
