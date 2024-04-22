@@ -190,9 +190,7 @@ header_x h2 {
         width: 80px;
         margin-top: 20px;
         margin-right: 20px;
-        position: absolute;
-        top: 0;
-        right: 0;
+        
     }
 
     .logo-container_z {
