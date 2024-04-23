@@ -252,13 +252,6 @@ img {
     left: 10px;
 }
 
-.container {
-     display: flex;
-        justify-content: space-between;
-    
-        margin-top: 40px
-}
-
 .logo-container_x {
     order: 2; /* ou qualquer número que desejar */
     bottom: 30px;
