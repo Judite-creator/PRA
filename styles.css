@@ -189,23 +189,18 @@ header_x h2 {
     }
     
     .logo {
-        order: -1;
         width: 80px;
         margin-top: 40px;
         margin-left: 20px;
-    
-        top: 0;
-        left: 0;
+   
     }
 
     .imagemprogramacao {
-        order: -1;
        width: 80px;
         margin-top: 40px;
         margin-right: 20px;
         
-        top: 0;
-        right: 0;
+
     }
 
     .footer {
