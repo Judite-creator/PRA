@@ -1,5 +1,4 @@
-
- /* CSS */
+/* CSS */
 html, body {
     height: 100%;
     font-family: 'Arial', sans-serif;
@@ -36,32 +35,6 @@ header {
     margin-left: auto; 
 }
 
-.container {
-     position: absolute;
-}
-
-.logo-container {
-    position: absolute;
-    bottom: 30px;
-    left: 100px;
-}
-
-.logo {
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    position: relative;
-    top: 0;
-    left: 20px;
-}
-    .imagemprogramacao {
-        width: 60px;
-        margin-top: 40px; 
-        margin-right: 30px;
-        position: relative;
-        top:0 px;
-        right: 5px;
-    }
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -87,6 +60,17 @@ img {
     padding: 10px 0;
 }
 
+.logo-container {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo-container_x {
     order: 2; /* ou qualquer número que desejar */
     bottom: 30px;
@@ -100,11 +84,18 @@ img {
 }
 
 .logo_small {
-    width: 20px; /* Defina o tamanho desejado */
+    width: 20px; /* Tamanho desejado */
     height: auto;
 }
 
-
+.logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
 
 .header-titulo {
     text-align: center;
@@ -140,7 +131,14 @@ img {
     margin-bottom: 20px;
 }
 
-
+.imagemprogramacao {
+    width: 200px;
+    margin-top: 70px;
+    margin-right: 50px;
+    position: absolute; /* Para fixar a imagem na tela */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    right: 0; /* Alinha à direita */
+}
 
 .titulo h2 {
     margin-bottom: 10px;
