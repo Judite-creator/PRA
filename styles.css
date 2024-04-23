@@ -290,13 +290,9 @@ img {
     margin-bottom: 20px;
 }
 
-.titulo_x {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 25px;
-}
+    .titulo_x {
+        margin-top: 0; /* Remove a margem superior para alinhar o texto com a imagem */
+    }
 
 .titulo_x > div {
     margin-bottom: 10px;
