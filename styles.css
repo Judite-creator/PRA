@@ -200,6 +200,7 @@ header_x h2 {
         width: 40px;
         margin-top: 10px;
         margin-right: 25px;
+        position: absolute;
        float:left;
     }
 
