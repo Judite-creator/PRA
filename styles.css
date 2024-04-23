@@ -197,10 +197,11 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-        width: 60px;
-        margin-top: 10px; /* Ajuste a margem superior para subir a imagem de programação */
-        margin-right: 30px;
-        float: right; 
+        width: 80px;
+        margin-top: 40px;
+        margin-right: 20px;
+        top: 0;
+        right: 0;
     }
 
     .footer {
