@@ -197,11 +197,12 @@ header_x h2 {
     }
 
     .imagemprogramacao {
-        width: 40px;
-        margin-top: 10px;
-        margin-right: 25px;
+       width: 80px;
+        margin-top: 40px;
+        margin-right: 20px;
         position: absolute;
-       float:left;
+        top: 0;
+        right: 0;
     }
 
     .footer {
