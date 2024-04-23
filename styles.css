@@ -179,7 +179,6 @@ header_x h2 {
 @media screen and (max-width: 768px) {
     .titulo_x {
         order: 1;
-        margin-top: 80px;
         flex-direction: column;
         align-items: justify;
     }
