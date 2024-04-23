@@ -103,7 +103,7 @@ img {
     margin-right: 20px;
     position: absolute; /* Para fixar a imagem na tela */
     transform: translateY(-50%); /* Centraliza verticalmente */
-    right: 20; /* Alinha à direita */
+    right: 20px; /* Alinha à direita */
 }
 
 .header-titulo {
