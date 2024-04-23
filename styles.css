@@ -102,6 +102,7 @@ img {
     margin-top: 40px;
     margin-right: 20px;
     position: absolute; /* Para fixar a imagem na tela */
+    top: 0;
     transform: translateY(-50%); /* Centraliza verticalmente */
     right: 20px; /* Alinha à direita */
 }
