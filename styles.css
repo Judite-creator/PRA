@@ -185,7 +185,6 @@ header_x h2 {
 
      .titulo_x h1 {
         margin: 10px 0; /* Adicione margem para separar os títulos */
-        align-items: center;
     }
       
     .container {
