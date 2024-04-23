@@ -97,6 +97,15 @@ img {
     left: 20px;
 }
 
+.imagemprogramacao {
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    position: absolute; /* Para fixar a imagem na tela */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    right: 20; /* Alinha à direita */
+}
+
 .header-titulo {
     text-align: center;
 }
@@ -131,14 +140,7 @@ img {
     margin-bottom: 20px;
 }
 
-.imagemprogramacao {
-    width: 200px;
-    margin-top: 70px;
-    margin-right: 50px;
-    position: absolute; /* Para fixar a imagem na tela */
-    transform: translateY(-50%); /* Centraliza verticalmente */
-    right: 0; /* Alinha à direita */
-}
+
 
 .titulo h2 {
     margin-bottom: 10px;
