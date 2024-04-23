@@ -182,6 +182,10 @@ header_x h2 {
         flex-direction: column;
         align-items: justify;
     }
+
+     .titulo_x h1 {
+        margin: 10px 0; /* Adicione margem para separar os títulos */
+    }
       
     .container {
         display: flex;
